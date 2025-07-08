@@ -26,3 +26,6 @@ yarn-error.log*
 .vscode
 
 # .env
+
+# backend
+backend/package-lock.json
