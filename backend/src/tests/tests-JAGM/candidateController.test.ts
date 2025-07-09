@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
-import { addCandidateController } from '../presentation/controllers/candidateController';
-import { addCandidate } from '../application/services/candidateService';
+import { addCandidateController } from '../../presentation/controllers/candidateController';
+import { addCandidate } from '../../application/services/candidateService';
 
 // Mock del servicio
-jest.mock('../application/services/candidateService');
+jest.mock('../../application/services/candidateService');
 
 describe('addCandidateController', () => {
   let mockRequest: Partial<Request>;
